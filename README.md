@@ -3,9 +3,8 @@ By Ning Chen and Yuqian Ran
 
 This is a group project of Stat 441(University of Waterloo). 
 
-We built a model predicting whether people would be satisfied with their life.
+Project Link: https://www.kaggle.com/c/eurosat-w2020
 
-The data contains 271 varibles, ids and satisfied(0/1 representing whether this person is satisfied with his/her life).
-
-1. We did the data preprocessing. We transformed the object data to float and filled the missing values using RandomForest.
-2. We improved the model performance using LightGBM, RandomForest, and XGBoost. 
+The data contain 39,325 observations and 274 variables labeled v1-v270 , cntry, id, satisfied , train.
+Each observation is a survey response of one person in different European countries.
+One survey question is (roughly): “Are you very satisfied with your life overall?”. This takes two values : 1 (yes), 0 (no). Your task is to predict whether respondents are very satisfied with their lives overall based on their other survey responses.
